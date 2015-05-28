@@ -1,6 +1,6 @@
 
 #Bootstrap Injector
-Single user mode is ready to use on all macs out of the box. You could type out a script to enrol your mac, but that would take a while. Enter the usb rubber ducky. The ducky shows up as a keyboard and can be programed to type what ever you want, using its 60mhz micro processor.
+Single user mode is ready to use on all macs out of the box. You could type out a script to enroll your mac, but that would take a while. Enter the usb rubber ducky. The ducky shows up as a keyboard and can be programed to type what ever you want, using its 60mhz micro processor.
 
 
 ##Getting Started
@@ -13,12 +13,11 @@ brew install dfu-programmer
 ```
 Clone this project
 
-Install dfu-programmer.
 ```#!bash
-git clone 
+git clone https://github.com/waderobson/bootstrap-injector.git
 ```
 
-This project relies on a custom [firmware][firmware] and [encoder][encoder] tool created by USB rubber ducky community member midnitesnake. We'll need to grab those files and put them in our working directory.
+This project relies on a custom [firmware][firmware] and [encoder][encoder] tool created by USB rubber ducky community member [midnitesnake](https://github.com/midnitesnake). We'll need to grab those files and put them in our working directory.
 
 [encoder]:	https://github.com/midnitesnake/USB-Rubber-Ducky/raw/master/Encoder/encoder.jar
 [firmware]:	https://github.com/midnitesnake/USB-Rubber-Ducky/raw/master/Firmware/Images/c_duck_v2.1.hex
