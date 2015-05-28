@@ -1,0 +1,19 @@
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+        <string>bsi.launchd</string>
+    <key>ProgramArguments</key>
+        <array>
+            <string>/bin/bash</string>
+            <string>/Library/Scripts/bootstrap/bootstrap.sh</string>
+        </array>
+    <key>WorkingDirectory</key>
+        <string>/Library/Scripts/bootstrap/</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StartInterval</key>
+    <integer>60</integer>
+    <key>AbandonProcessGroup</key>
+    <true/>
+</dict>
+</plist>

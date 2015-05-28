@@ -1,0 +1,21 @@
+REM All the delays can be adjusted depending on the
+REM speed of the machine.
+DELAY 2000
+STRING mount -uw /
+ENTER
+DELAY 500
+STRING mkdir /Volumes/usb
+ENTER
+REM This bit is counting backwards trying to mount the usb drive
+STRING for i in {3..1}; do  mount_msdos /dev/disk${i}s1 /Volumes/usb/; if [[ $? = 0 ]]; then  break; fi; done
+ENTER
+DELAY 500
+REM Disable Setup assistant screen
+STRING touch /var/db/.AppleSetupDone
+ENTER
+STRING cp /Volumes/usb/bsi.launchd.plist /Library/LaunchDaemons/
+ENTER
+STRING cp -R /Volumes/usb/bootstrap /Library/Scripts/
+ENTER
+STRING reboot
+ENTER

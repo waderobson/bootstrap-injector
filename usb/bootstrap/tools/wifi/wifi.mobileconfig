@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>EncryptionType</key>
+			<string>Any</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>Password</key>
+			<string>PASSWORD_GOES_HERE</string>
+			<key>PayloadDescription</key>
+			<string>Configures wireless connectivity settings.</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi (Wade's Wi-Fi Network)</string>
+			<key>PayloadIdentifier</key>
+			<string>bsi.wifi.wifi</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>DB3F6097-0930-471A-A68B-7FA35BFCF0D9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>SSID_GOES_HERE</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures wifi.</string>
+	<key>PayloadDisplayName</key>
+	<string>Wifi</string>
+	<key>PayloadIdentifier</key>
+	<string>bsi.wifi</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>07A274CD-00A1-4A4D-8B9F-CD0F629EDF3C</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

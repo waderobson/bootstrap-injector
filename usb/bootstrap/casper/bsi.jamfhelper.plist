@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>bsi.jamf.helper</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>LimitLoadToSessionType</key>
+    <string>LoginWindow</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Library/Application Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper</string>
+        <string>-windowType</string>
+        <string>fs</string>
+        <string>-title</string>
+        <string>"Imaging"</string>
+        <string>-description</string>
+        <string>"This Mac is being imaged."</string>
+        <string>-icon</string>
+        <string>/System/Library/CoreServices/ODSAgent.app/Contents/Resources/CD.icns</string>
+    </array>
+</dict>
+</plist>
