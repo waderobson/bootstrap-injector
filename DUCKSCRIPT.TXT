@@ -1,3 +1,4 @@
+DEFAULTDELAY 10
 REM All the delays can be adjusted depending on the
 REM speed of the machine.
 DELAY 2000
