@@ -1,4 +1,3 @@
-#!/bin/bash
 
 # Determine OS version
 osvers=$(sw_vers -productVersion | awk -F. '{print $2}')
