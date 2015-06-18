@@ -16,7 +16,7 @@
 			<key>PayloadDescription</key>
 			<string>Configures wireless connectivity settings.</string>
 			<key>PayloadDisplayName</key>
-			<string>Wi-Fi (Wade's Wi-Fi Network)</string>
+			<string>Wi-Fi</string>
 			<key>PayloadIdentifier</key>
 			<string>bsi.wifi.wifi</string>
 			<key>PayloadOrganization</key>
