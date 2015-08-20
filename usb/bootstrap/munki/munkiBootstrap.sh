@@ -10,8 +10,5 @@ defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL ${MUNKI_REPO
 defaults write /Library/Preferences/ManagedInstalls ClientIdentifier ${MUNKI_MANIFEST}
 defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates -bool true
 
-# Install munki report
-/bin/bash -c "$(curl -s ${MUNKI_REPORT_SERVER}/index.php?/install)"
-
 # Create bootstrap file
 touch '/Users/Shared/.com.googlecode.munki.checkandinstallatstartup'

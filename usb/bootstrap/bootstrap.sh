@@ -11,7 +11,6 @@ HOST='google.ca'
 MUNKI_TOOLS_URL='https://munkibuilds.org/munkitools2-latest.pkg'
 MUNKI_REPO='http://your.munkiserver.com/munki_repo'
 MUNKI_MANIFEST='general'
-MUNKI_REPORT_SERVER='http://your.munkiserver.com/munki_repo/report'
 
 # ############# CASPER STUFF ######################
 # the URL of your JSS, if you are behind a load balancer you can use the URL and do not put a slash on the end
